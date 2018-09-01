@@ -1,0 +1,23 @@
+/* shared */
+.mostar-main-header, 
+.mostar-user-settings {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #c6c6c6;
+    margin-bottom: 10px;
+}
+
+/* screen-main-list.html  */
+
+.mostar-main-header {}
+
+.mostar-main-search {
+    width:90%; 
+    bottom:10px; 
+    position:absolute; 
+    padding-right:30px;
+}
+
+/* mostar-user-settings.html */
+
+.mostar-user-settings {}
+

@@ -1,0 +1,29 @@
+<div class="row mostar-main-header">
+  <h3>
+    <a href="#" class="col-xs-2 text-ieft" mostar-click-data="user">
+      <i class="fa fa-user"></i>
+    </a>
+    <div class="col-xs-8 text-center">Groupes</div>
+    <a href="#" class="col-xs-2 text-right" mostar-click-data="add">
+      <i class="fa fa-plus-square-o"></i>
+    </a>
+  </h3>
+</div>
+
+<ul class="list-group mostar-main-list">
+  {{#mostar-groups}}
+    {{>mostar-main-list-item}}
+  {{/mostar-groups}}
+</ul>
+
+<div class="input-group mostar-main-search">
+  <span class="input-group-btn">
+    <button class="btn btn-default" type="button">
+      <i class="fa fa-search"></i>
+    </button>
+  </span>
+  <input id="search_subject" class="form-control shiny-bound-input" type="text">
+</div>
+
+
+
